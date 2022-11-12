@@ -1,0 +1,78 @@
+/*  I certify that the CSS file I am submitting is all my own work.
+    None of it is copied from any source or any person.
+    Signed: James West
+ */
+/*
+    Author: James West
+    Date: Fall 2022
+    Class: CSC135
+    Project: Assignment 2
+    Description: Resume with Styling
+ */
+html {
+    box-sizing: border-box;
+}
+* {
+    box-sizing: inherit;
+}
+
+header, main, footer {
+    max-width: 50em;
+}
+main {
+    background: aquamarine;
+    overflow: hidden;
+}
+main > ul {
+    list-style: none;
+}
+header {
+    text-align: center;
+    background: blue;
+    overflow: auto;
+    margin-bottom: 0;
+}
+header > h1 {
+    padding-top: 1em;
+    margin-bottom: .1em;
+}
+header > p {
+    margin-top: 0;
+}
+header > h1 {
+
+}
+header > img {
+    padding: 1em;
+    border-radius: 50%;
+    float: left;
+    width: 13em;
+}
+/*main > *:first-child, main > *:nth-child(2) {*/
+/*    margin-top: 0;*/
+/*    padding-top: 1em;*/
+/*}*/
+
+.left-float-header {
+    text-align: right;
+    border-bottom: black;
+    border-bottom-style: dotted;
+    text-transform: uppercase;
+    margin-right: 1em;
+    margin-left: 1em;
+    width: 13em;
+    clear: both;
+    float: left;
+}
+.left-float-header + * {
+    float: left;
+}
+#grad-date-sub {
+    text: italics;
+    font-weight: normal;
+}
+footer {
+    clear: both;
+    text-align: center;
+    background: aquamarine;
+}
